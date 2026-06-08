@@ -1,0 +1,101 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image:
+    linear-gradient(
+     rgba(0,0,0,0.2),
+     rgba(0,0,0,0.2)
+   ),
+     url("Downloads\\Hintergrund2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  width: 450px;
+  padding: 25px;
+  margin: 50px auto;
+
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: 20px;
+
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+
+  border: 1px solid rgba(255, 255, 255, 0.2);
+
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
+
+  color: white;
+  text-align: center;
+}
+
+img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.about {
+  margin-bottom: 30px;
+  line-height: 1.5;
+  font-family: 'VT323', monospace;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.link-button {
+  display: block;
+  width: 300px;
+  margin: 15px auto;
+  padding: 15px;
+
+  font-family: 'Audiowide', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+
+  background: rgba(5, 5, 5, 0.6);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 15px;
+
+  box-shadow: 0 8px 20px rgba(7, 7, 7, 0.4);
+
+  transition: all 0.3s ease;
+}
+
+.link-button:hover {
+    background: rgba(69, 70, 70, 0.8);
+    transform: translateY(-3px);
+    box-shadow: 0 12px 25px rgba(29, 29, 29, 0.6);
+}
+
+.links i {
+    margin-right: 5px;
+}
