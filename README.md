@@ -1,6 +1,6 @@
 # Linktree — Antonio van Londen
 
-Meine persönliche Startseite: eine schlichte Karte, die alle meine Profile und meinen Lebenslauf an einer Stelle bündelt.
+Meine persönliche Startseite: eine schlichte Seite, die alle meine Profile und meinen Lebenslauf an einer Stelle bündelt.
 
 **Live ansehen:** https://imthefake.github.io/Linktree_Antonio/
 
