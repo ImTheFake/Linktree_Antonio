@@ -10,7 +10,7 @@ body {
      rgba(0,0,0,0.2),
      rgba(0,0,0,0.2)
    ),
-     url("images\\hintergrund.png");
+     url("images/hintergrund.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,7 +24,8 @@ body {
 }
 
 .container {
-  width: 450px;
+  width: 100%;
+  max-width: 450px;
   padding: 25px;
   margin: 50px auto;
 
@@ -51,13 +52,13 @@ img {
 
 h1 {
   margin-bottom: 10px;
-  font-family: 'Orbitron', sans-serif;
+  font-family: sans-serif;
 }
 
 .about {
   margin-bottom: 30px;
   line-height: 1.5;
-  font-family: 'VT323', monospace;
+  font-family: monospace;
 }
 
 .links {
@@ -68,11 +69,12 @@ h1 {
 
 .link-button {
   display: block;
-  width: 300px;
+  width: 100%;
+  max-width: 300px;
   margin: 15px auto;
   padding: 15px;
 
-  font-family: 'Audiowide', sans-serif;
+  font-family: sans-serif;
   text-decoration: none;
   text-align: center;
   color: white;
